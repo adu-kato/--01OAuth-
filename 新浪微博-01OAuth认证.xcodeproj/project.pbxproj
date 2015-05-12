@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5185671AF9C2B7001E6406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5185661AF9C2B7001E6406 /* Foundation.framework */; };
+		BF5185691AF9C2B7001E6406 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5185681AF9C2B7001E6406 /* CoreGraphics.framework */; };
+		BF51856B1AF9C2B7001E6406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF51856A1AF9C2B7001E6406 /* UIKit.framework */; };
+		BF5185711AF9C2B7001E6406 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF51856F1AF9C2B7001E6406 /* InfoPlist.strings */; };
+		BF5185731AF9C2B7001E6406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185721AF9C2B7001E6406 /* main.m */; };
+		BF5185771AF9C2B7001E6406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185761AF9C2B7001E6406 /* AppDelegate.m */; };
+		BF51857A1AF9C2B7001E6406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5185781AF9C2B7001E6406 /* Main.storyboard */; };
+		BF51857D1AF9C2B7001E6406 /* OAuth2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF51857C1AF9C2B7001E6406 /* OAuth2ViewController.m */; };
+		BF51857F1AF9C2B7001E6406 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF51857E1AF9C2B7001E6406 /* Images.xcassets */; };
+		BF5185861AF9C2B7001E6406 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5185851AF9C2B7001E6406 /* XCTest.framework */; };
+		BF5185871AF9C2B7001E6406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5185661AF9C2B7001E6406 /* Foundation.framework */; };
+		BF5185881AF9C2B7001E6406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF51856A1AF9C2B7001E6406 /* UIKit.framework */; };
+		BF5185901AF9C2B7001E6406 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF51858E1AF9C2B7001E6406 /* InfoPlist.strings */; };
+		BF5185921AF9C2B7001E6406 /* _____01OAuth__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185911AF9C2B7001E6406 /* _____01OAuth__Tests.m */; };
+		BF5185AF1AF9EC5B001E6406 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF51859D1AF9EC5B001E6406 /* AFHTTPRequestOperation.m */; };
+		BF5185B01AF9EC5B001E6406 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF51859F1AF9EC5B001E6406 /* AFHTTPRequestOperationManager.m */; };
+		BF5185B11AF9EC5B001E6406 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185A11AF9EC5B001E6406 /* AFHTTPSessionManager.m */; };
+		BF5185B21AF9EC5B001E6406 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185A41AF9EC5B001E6406 /* AFNetworkReachabilityManager.m */; };
+		BF5185B31AF9EC5B001E6406 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185A61AF9EC5B001E6406 /* AFSecurityPolicy.m */; };
+		BF5185B41AF9EC5B001E6406 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185A81AF9EC5B001E6406 /* AFURLConnectionOperation.m */; };
+		BF5185B51AF9EC5B001E6406 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185AA1AF9EC5B001E6406 /* AFURLRequestSerialization.m */; };
+		BF5185B61AF9EC5B001E6406 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185AC1AF9EC5B001E6406 /* AFURLResponseSerialization.m */; };
+		BF5185B71AF9EC5B001E6406 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185AE1AF9EC5B001E6406 /* AFURLSessionManager.m */; };
+		BF5185BA1AF9FB38001E6406 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185B91AF9FB38001E6406 /* Account.m */; };
+		BF5185BD1AFA0653001E6406 /* SinaAPIConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185BC1AFA0653001E6406 /* SinaAPIConstant.m */; };
+		BF5185C01AFA0A05001E6406 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5185BF1AFA0A05001E6406 /* AccountManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5185891AF9C2B7001E6406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF51855B1AF9C2B7001E6406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5185621AF9C2B7001E6406;
+			remoteInfo = "新浪微博-01OAuth认证";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5185631AF9C2B7001E6406 /* 新浪微博-01OAuth认证.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博-01OAuth认证.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5185661AF9C2B7001E6406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF5185681AF9C2B7001E6406 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF51856A1AF9C2B7001E6406 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF51856E1AF9C2B7001E6406 /* 新浪微博-01OAuth认证-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "新浪微博-01OAuth认证-Info.plist"; sourceTree = "<group>"; };
+		BF5185701AF9C2B7001E6406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF5185721AF9C2B7001E6406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5185741AF9C2B7001E6406 /* 新浪微博-01OAuth认证-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "新浪微博-01OAuth认证-Prefix.pch"; sourceTree = "<group>"; };
+		BF5185751AF9C2B7001E6406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF5185761AF9C2B7001E6406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF5185791AF9C2B7001E6406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF51857B1AF9C2B7001E6406 /* OAuth2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuth2ViewController.h; sourceTree = "<group>"; };
+		BF51857C1AF9C2B7001E6406 /* OAuth2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuth2ViewController.m; sourceTree = "<group>"; };
+		BF51857E1AF9C2B7001E6406 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF5185841AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博-01OAuth认证Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5185851AF9C2B7001E6406 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF51858D1AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "新浪微博-01OAuth认证Tests-Info.plist"; sourceTree = "<group>"; };
+		BF51858F1AF9C2B7001E6406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF5185911AF9C2B7001E6406 /* _____01OAuth__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____01OAuth__Tests.m"; sourceTree = "<group>"; };
+		BF51859C1AF9EC5B001E6406 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		BF51859D1AF9EC5B001E6406 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		BF51859E1AF9EC5B001E6406 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		BF51859F1AF9EC5B001E6406 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		BF5185A01AF9EC5B001E6406 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BF5185A11AF9EC5B001E6406 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		BF5185A21AF9EC5B001E6406 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		BF5185A31AF9EC5B001E6406 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		BF5185A41AF9EC5B001E6406 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		BF5185A51AF9EC5B001E6406 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BF5185A61AF9EC5B001E6406 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		BF5185A71AF9EC5B001E6406 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		BF5185A81AF9EC5B001E6406 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		BF5185A91AF9EC5B001E6406 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		BF5185AA1AF9EC5B001E6406 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		BF5185AB1AF9EC5B001E6406 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BF5185AC1AF9EC5B001E6406 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		BF5185AD1AF9EC5B001E6406 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		BF5185AE1AF9EC5B001E6406 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		BF5185B81AF9FB38001E6406 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = ../Account.h; sourceTree = "<group>"; };
+		BF5185B91AF9FB38001E6406 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = ../Account.m; sourceTree = "<group>"; };
+		BF5185BB1AFA0653001E6406 /* SinaAPIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaAPIConstant.h; sourceTree = "<group>"; };
+		BF5185BC1AFA0653001E6406 /* SinaAPIConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaAPIConstant.m; sourceTree = "<group>"; };
+		BF5185BE1AFA0A05001E6406 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		BF5185BF1AFA0A05001E6406 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5185601AF9C2B7001E6406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5185691AF9C2B7001E6406 /* CoreGraphics.framework in Frameworks */,
+				BF51856B1AF9C2B7001E6406 /* UIKit.framework in Frameworks */,
+				BF5185671AF9C2B7001E6406 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5185811AF9C2B7001E6406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5185861AF9C2B7001E6406 /* XCTest.framework in Frameworks */,
+				BF5185881AF9C2B7001E6406 /* UIKit.framework in Frameworks */,
+				BF5185871AF9C2B7001E6406 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF51855A1AF9C2B7001E6406 = {
+			isa = PBXGroup;
+			children = (
+				BF51856C1AF9C2B7001E6406 /* 新浪微博-01OAuth认证 */,
+				BF51858B1AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests */,
+				BF5185651AF9C2B7001E6406 /* Frameworks */,
+				BF5185641AF9C2B7001E6406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5185641AF9C2B7001E6406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5185631AF9C2B7001E6406 /* 新浪微博-01OAuth认证.app */,
+				BF5185841AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5185651AF9C2B7001E6406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5185661AF9C2B7001E6406 /* Foundation.framework */,
+				BF5185681AF9C2B7001E6406 /* CoreGraphics.framework */,
+				BF51856A1AF9C2B7001E6406 /* UIKit.framework */,
+				BF5185851AF9C2B7001E6406 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF51856C1AF9C2B7001E6406 /* 新浪微博-01OAuth认证 */ = {
+			isa = PBXGroup;
+			children = (
+				BF5185B81AF9FB38001E6406 /* Account.h */,
+				BF5185B91AF9FB38001E6406 /* Account.m */,
+				BF51859B1AF9EC5B001E6406 /* AFNetworking */,
+				BF5185751AF9C2B7001E6406 /* AppDelegate.h */,
+				BF5185761AF9C2B7001E6406 /* AppDelegate.m */,
+				BF5185781AF9C2B7001E6406 /* Main.storyboard */,
+				BF51857B1AF9C2B7001E6406 /* OAuth2ViewController.h */,
+				BF51857C1AF9C2B7001E6406 /* OAuth2ViewController.m */,
+				BF5185BE1AFA0A05001E6406 /* AccountManager.h */,
+				BF5185BF1AFA0A05001E6406 /* AccountManager.m */,
+				BF5185BB1AFA0653001E6406 /* SinaAPIConstant.h */,
+				BF5185BC1AFA0653001E6406 /* SinaAPIConstant.m */,
+				BF51857E1AF9C2B7001E6406 /* Images.xcassets */,
+				BF51856D1AF9C2B7001E6406 /* Supporting Files */,
+			);
+			path = "新浪微博-01OAuth认证";
+			sourceTree = "<group>";
+		};
+		BF51856D1AF9C2B7001E6406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF51856E1AF9C2B7001E6406 /* 新浪微博-01OAuth认证-Info.plist */,
+				BF51856F1AF9C2B7001E6406 /* InfoPlist.strings */,
+				BF5185721AF9C2B7001E6406 /* main.m */,
+				BF5185741AF9C2B7001E6406 /* 新浪微博-01OAuth认证-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF51858B1AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5185911AF9C2B7001E6406 /* _____01OAuth__Tests.m */,
+				BF51858C1AF9C2B7001E6406 /* Supporting Files */,
+			);
+			path = "新浪微博-01OAuth认证Tests";
+			sourceTree = "<group>";
+		};
+		BF51858C1AF9C2B7001E6406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF51858D1AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests-Info.plist */,
+				BF51858E1AF9C2B7001E6406 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF51859B1AF9EC5B001E6406 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BF51859C1AF9EC5B001E6406 /* AFHTTPRequestOperation.h */,
+				BF51859D1AF9EC5B001E6406 /* AFHTTPRequestOperation.m */,
+				BF51859E1AF9EC5B001E6406 /* AFHTTPRequestOperationManager.h */,
+				BF51859F1AF9EC5B001E6406 /* AFHTTPRequestOperationManager.m */,
+				BF5185A01AF9EC5B001E6406 /* AFHTTPSessionManager.h */,
+				BF5185A11AF9EC5B001E6406 /* AFHTTPSessionManager.m */,
+				BF5185A21AF9EC5B001E6406 /* AFNetworking.h */,
+				BF5185A31AF9EC5B001E6406 /* AFNetworkReachabilityManager.h */,
+				BF5185A41AF9EC5B001E6406 /* AFNetworkReachabilityManager.m */,
+				BF5185A51AF9EC5B001E6406 /* AFSecurityPolicy.h */,
+				BF5185A61AF9EC5B001E6406 /* AFSecurityPolicy.m */,
+				BF5185A71AF9EC5B001E6406 /* AFURLConnectionOperation.h */,
+				BF5185A81AF9EC5B001E6406 /* AFURLConnectionOperation.m */,
+				BF5185A91AF9EC5B001E6406 /* AFURLRequestSerialization.h */,
+				BF5185AA1AF9EC5B001E6406 /* AFURLRequestSerialization.m */,
+				BF5185AB1AF9EC5B001E6406 /* AFURLResponseSerialization.h */,
+				BF5185AC1AF9EC5B001E6406 /* AFURLResponseSerialization.m */,
+				BF5185AD1AF9EC5B001E6406 /* AFURLSessionManager.h */,
+				BF5185AE1AF9EC5B001E6406 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5185621AF9C2B7001E6406 /* 新浪微博-01OAuth认证 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5185951AF9C2B7001E6406 /* Build configuration list for PBXNativeTarget "新浪微博-01OAuth认证" */;
+			buildPhases = (
+				BF51855F1AF9C2B7001E6406 /* Sources */,
+				BF5185601AF9C2B7001E6406 /* Frameworks */,
+				BF5185611AF9C2B7001E6406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新浪微博-01OAuth认证";
+			productName = "新浪微博-01OAuth认证";
+			productReference = BF5185631AF9C2B7001E6406 /* 新浪微博-01OAuth认证.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5185831AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5185981AF9C2B7001E6406 /* Build configuration list for PBXNativeTarget "新浪微博-01OAuth认证Tests" */;
+			buildPhases = (
+				BF5185801AF9C2B7001E6406 /* Sources */,
+				BF5185811AF9C2B7001E6406 /* Frameworks */,
+				BF5185821AF9C2B7001E6406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF51858A1AF9C2B7001E6406 /* PBXTargetDependency */,
+			);
+			name = "新浪微博-01OAuth认证Tests";
+			productName = "新浪微博-01OAuth认证Tests";
+			productReference = BF5185841AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF51855B1AF9C2B7001E6406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.bjsxt;
+				TargetAttributes = {
+					BF5185831AF9C2B7001E6406 = {
+						TestTargetID = BF5185621AF9C2B7001E6406;
+					};
+				};
+			};
+			buildConfigurationList = BF51855E1AF9C2B7001E6406 /* Build configuration list for PBXProject "新浪微博-01OAuth认证" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF51855A1AF9C2B7001E6406;
+			productRefGroup = BF5185641AF9C2B7001E6406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5185621AF9C2B7001E6406 /* 新浪微博-01OAuth认证 */,
+				BF5185831AF9C2B7001E6406 /* 新浪微博-01OAuth认证Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5185611AF9C2B7001E6406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF51857F1AF9C2B7001E6406 /* Images.xcassets in Resources */,
+				BF5185711AF9C2B7001E6406 /* InfoPlist.strings in Resources */,
+				BF51857A1AF9C2B7001E6406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5185821AF9C2B7001E6406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5185901AF9C2B7001E6406 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF51855F1AF9C2B7001E6406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5185AF1AF9EC5B001E6406 /* AFHTTPRequestOperation.m in Sources */,
+				BF5185BD1AFA0653001E6406 /* SinaAPIConstant.m in Sources */,
+				BF51857D1AF9C2B7001E6406 /* OAuth2ViewController.m in Sources */,
+				BF5185B01AF9EC5B001E6406 /* AFHTTPRequestOperationManager.m in Sources */,
+				BF5185B21AF9EC5B001E6406 /* AFNetworkReachabilityManager.m in Sources */,
+				BF5185B61AF9EC5B001E6406 /* AFURLResponseSerialization.m in Sources */,
+				BF5185B41AF9EC5B001E6406 /* AFURLConnectionOperation.m in Sources */,
+				BF5185B31AF9EC5B001E6406 /* AFSecurityPolicy.m in Sources */,
+				BF5185B11AF9EC5B001E6406 /* AFHTTPSessionManager.m in Sources */,
+				BF5185B51AF9EC5B001E6406 /* AFURLRequestSerialization.m in Sources */,
+				BF5185B71AF9EC5B001E6406 /* AFURLSessionManager.m in Sources */,
+				BF5185C01AFA0A05001E6406 /* AccountManager.m in Sources */,
+				BF5185771AF9C2B7001E6406 /* AppDelegate.m in Sources */,
+				BF5185731AF9C2B7001E6406 /* main.m in Sources */,
+				BF5185BA1AF9FB38001E6406 /* Account.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5185801AF9C2B7001E6406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5185921AF9C2B7001E6406 /* _____01OAuth__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF51858A1AF9C2B7001E6406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5185621AF9C2B7001E6406 /* 新浪微博-01OAuth认证 */;
+			targetProxy = BF5185891AF9C2B7001E6406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF51856F1AF9C2B7001E6406 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5185701AF9C2B7001E6406 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF5185781AF9C2B7001E6406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5185791AF9C2B7001E6406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF51858E1AF9C2B7001E6406 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF51858F1AF9C2B7001E6406 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5185931AF9C2B7001E6406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF5185941AF9C2B7001E6406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5185961AF9C2B7001E6406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博-01OAuth认证/新浪微博-01OAuth认证-Prefix.pch";
+				INFOPLIST_FILE = "新浪微博-01OAuth认证/新浪微博-01OAuth认证-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF5185971AF9C2B7001E6406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博-01OAuth认证/新浪微博-01OAuth认证-Prefix.pch";
+				INFOPLIST_FILE = "新浪微博-01OAuth认证/新浪微博-01OAuth认证-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF5185991AF9C2B7001E6406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/新浪微博-01OAuth认证.app/新浪微博-01OAuth认证";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博-01OAuth认证/新浪微博-01OAuth认证-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "新浪微博-01OAuth认证Tests/新浪微博-01OAuth认证Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF51859A1AF9C2B7001E6406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/新浪微博-01OAuth认证.app/新浪微博-01OAuth认证";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博-01OAuth认证/新浪微博-01OAuth认证-Prefix.pch";
+				INFOPLIST_FILE = "新浪微博-01OAuth认证Tests/新浪微博-01OAuth认证Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF51855E1AF9C2B7001E6406 /* Build configuration list for PBXProject "新浪微博-01OAuth认证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5185931AF9C2B7001E6406 /* Debug */,
+				BF5185941AF9C2B7001E6406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5185951AF9C2B7001E6406 /* Build configuration list for PBXNativeTarget "新浪微博-01OAuth认证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5185961AF9C2B7001E6406 /* Debug */,
+				BF5185971AF9C2B7001E6406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5185981AF9C2B7001E6406 /* Build configuration list for PBXNativeTarget "新浪微博-01OAuth认证Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5185991AF9C2B7001E6406 /* Debug */,
+				BF51859A1AF9C2B7001E6406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF51855B1AF9C2B7001E6406 /* Project object */;
+}
